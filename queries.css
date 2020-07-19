@@ -1,0 +1,23 @@
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-device-width: 480px){
+    .triangle {
+        transform: scale(.32);
+        left: -25%;
+    }
+    
+    .u-letter {
+        transform: scale(.32);
+    }
+    
+    .pi-letter {
+        transform: scale(.32);
+    }
+    
+    .container {
+    }
+    
+    .container .triangle {
+        left: -35%;
+    }
+}
