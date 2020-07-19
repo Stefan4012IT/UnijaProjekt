@@ -58,7 +58,7 @@ body {
     top: -5%;
     left: -35%;
     background-color: #000;
-    position: absolute;
+    animation: introTriangle 2.8s forwards;
     z-index: 8;
 }
 
@@ -72,7 +72,7 @@ body {
     clip-path: polygon(70% 0, 30% 100%, 20% 100%, 40% 50%, 40% 0);
     transform: scale(.5);
     background-color: #000;
-    position: absolute;
+    animation: introLetterU 2.8s forwards;
     z-index: 8;
 }
 
@@ -86,7 +86,7 @@ body {
     transform: scale(.5);
     left: 30%;
     top: -5%;
-    position: absolute;
+    animation: introLetterPi 3.4s forwards;
     z-index: 6;
 }
 
@@ -299,6 +299,53 @@ header {
     }
 }
 
+
+@keyframes introTriangle {
+    
+    0% {
+        top: -25%;
+        left: -65%;
+    }
+    50% {
+        top: -25%;
+        left: -35%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes introLetterU {
+    0% {
+        top: -25%;
+        left: 10%;
+    }
+    50% {
+        top: -25%;
+        left: 10%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes introLetterPi {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    85% {
+        opacity: .2;
+    }
+    90% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @keyframes rotate {
     from {
