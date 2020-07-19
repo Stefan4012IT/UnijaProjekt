@@ -1,6 +1,10 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-device-width: 480px){
+    .leftWing{
+        background-image: linear-gradient(to right bottom, #fff, #121212);
+    }
+    
     .triangle {
         transform: scale(.32);
         left: -25%;
