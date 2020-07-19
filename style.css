@@ -9,6 +9,7 @@ body {
     margin: 0;
     overflow: hidden;
     position: relative;
+    font-family: 'Alata', sans-serif;
 }
 /********************************************************************************************/
 /*                                    PRESENTATION                                          */
@@ -128,7 +129,8 @@ header {
     text-align: center;
     color: #000;
     z-index: 10;
-    font-size: 36px;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 .circle {
